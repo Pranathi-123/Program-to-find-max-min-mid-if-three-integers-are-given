@@ -1,0 +1,10 @@
+#Program to compare and arrange in order
+a = int(input( ))
+b = int(input( ))
+c = int(input( ))
+
+Max = max(a,b,c)
+Min = min(a,b,c)
+Mid = (a+b+c)-Max-Min
+
+print(Max,Mid,Min,sep=" > ")
